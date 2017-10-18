@@ -1,4 +1,4 @@
-// Quicky unlocks domain user accounts
+#Quicky unlocks domain user accounts
 Import-Module ActiveDirectory 
 Search-ADAccount -LockedOut
 $caption = "Confirm";
